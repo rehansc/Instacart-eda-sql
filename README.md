@@ -75,6 +75,6 @@ A heatmap to visualize shopping behavior patterns, showing peaks on weekends and
 ## 🔗 Author
 **Rehan Chaudhry**  
 [GitHub Portfolio](https://github.com/rehansc)  
-[LinkedIn](https://www.linkedin.com)
+[LinkedIn](https://www.linkedin.com/in/RehanChaudhry)
 
 ---
