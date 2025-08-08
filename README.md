@@ -88,6 +88,7 @@ instacart-eda-sql/
 
 **Rehan Chaudhry**  
 [GitHub Portfolio](https://github.com/rehansc)  
-[LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/rehanchaudhry/))
+[LinkedIn](https://www.linkedin.com/in/rehanchaudhry/)
+
 
 ---
