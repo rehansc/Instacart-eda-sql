@@ -28,7 +28,8 @@ The data comes from the [Instacart Market Basket 2017 dataset](https://www.kaggl
 
 ## 📁 View the Code & Outputs
 
-- [📄 View full notebook source (`.ipynb`)](instacart_eda_sql.ipynb](https://github.com/rehansc/Instacart-eda-sql/blob/main/instacart_eda_sql.ipynb)
+- [📄 View full notebook source (`.ipynb`)](https://github.com/rehansc/Instacart-eda-sql/blob/main/instacart_eda_sql.ipynb)
+
 
 ---
 
