@@ -1,4 +1,3 @@
-# Instacart-eda-sql
 
 # 🛒 Instacart Market Basket Analysis (SQL + Python)
 
@@ -18,10 +17,19 @@ The data comes from the [Instacart Market Basket 2017 dataset](https://www.kaggl
 
 ## 🛠 Tools Used
 
-- **Databricks (Community Edition)** for Spark SQL and notebook environment
+- **Databricks (Community Edition)** for Spark SQL and notebooks
 - **PySpark SQL** for querying large-scale datasets
-- **Pandas** for in-memory data manipulation
-- **Matplotlib & Seaborn** for data visualization
+- **Pandas** for data wrangling
+- **Matplotlib & Seaborn** for visualizations
+
+> 🧠 This analysis was conducted entirely in **Databricks Community Edition** using Spark SQL, PySpark, and Python visualizations.
+
+---
+
+## 📁 View the Code & Outputs
+
+- [📄 View full notebook source (`.py`)](notebooks/instacart_week1_notebook.py)
+- [🌐 View rendered notebook with charts (`.html`)](notebooks/instacart_week1_output.html)
 
 ---
 
@@ -31,50 +39,55 @@ The data comes from the [Instacart Market Basket 2017 dataset](https://www.kaggl
 Shows the most frequently purchased products across all orders.
 
 ### 2. **Top 10 Most Reordered Aisles**
-Highlights which aisles (e.g., produce, dairy) have the highest reorder rates — insight into staple categories.
+Highlights aisles with highest reorder rates — staple categories.
 
 ### 3. **Top 10 Users with Highest Average Basket Size**
-Identifies users who typically place large orders, which could indicate high lifetime value customers.
+Identifies users who place large orders, indicating high-value behavior.
 
 ### 4. **Basket Size Distribution**
-A histogram showing how many items are typically ordered — most baskets have 5–15 items.
+A histogram showing how many items are typically ordered.
 
 ### 5. **Order Count by Day of Week and Hour of Day**
-A heatmap to visualize shopping behavior patterns, showing peaks on weekends and afternoons.
+Heatmap showing time-of-day and day-of-week order trends.
 
 ---
 
-## 💡 Business Insights
+## 💡 Key Business Insights
 
-- **Produce & Dairy dominate reorders**: Suggests strong repeat behavior in staple items, offering opportunities for retention and upsell targeting.
-- **Small group of users place large baskets**: These users may be ideal for loyalty programs or bulk promotions.
-- **Peak shopping occurs late mornings to early afternoons on weekends**: Perfect timing for ad targeting, promotions, or staffing adjustments.
-- **Most baskets are medium-sized**: Encourages designing promotions for customers adding “just a few more items” to optimize average order value.
+- **Produce & dairy dominate reorders** → Opportunity for upsell/retargeting.
+- **High-value users place large baskets** → Focus for loyalty/retention.
+- **Peak shopping: weekends, late mornings** → Ideal ad & ops timing.
+- **Most baskets are 5–15 items** → Promotions can nudge to higher order values.
 
 ---
 
-## 📁 Project Structure
+## 📁 Suggested Repository Structure
 
 ```
-📦 instacart-eda
-├── instacart_week1_notebook.py      # Databricks notebook exported as .py
-├── README.md                        # This file
-└── /images                          # Screenshots of visualizations (optional)
+instacart-eda-sql/
+├── notebooks/
+│   ├── instacart_week1_notebook.py
+│   └── instacart_week1_output.html
+├── images/                        # optional
+│   └── *.png                      # charts (optional)
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## ✅ Next Steps
 
-- Add predictive modeling (e.g., reorder prediction, basket prediction)
-- Connect to Power BI or Tableau for stakeholder dashboards
-- Create a Streamlit app or Databricks dashboard for interactivity
+- Add predictive modeling (e.g., reorder prediction)
+- Build dashboards (Power BI, Tableau, or Streamlit)
+- Expand to personalized recommendations
 
 ---
 
 ## 🔗 Author
+
 **Rehan Chaudhry**  
 [GitHub Portfolio](https://github.com/rehansc)  
-[LinkedIn](https://www.linkedin.com/in/RehanChaudhry)
+[LinkedIn](https://www.linkedin.com)
 
 ---
