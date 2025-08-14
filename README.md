@@ -47,6 +47,7 @@ Highlights aisles with highest reorder rates — staple categories.
 
 ### 3. **Top 10 Users with Highest Average Basket Size**
 Identifies users who place large orders, indicating high-value behavior.
+![Reordered Aisles](images/top_users.png)
 
 ### 4. **Basket Size Distribution**
 A histogram showing how many items are typically ordered.
