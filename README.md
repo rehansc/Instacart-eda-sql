@@ -35,20 +35,26 @@ The data comes from the [Instacart Market Basket 2017 dataset](https://www.kaggl
 
 ## 📊 Visualizations
 
+## 📊 Visual Results
+
 ### 1. **Top 10 Most Ordered Products**
 Shows the most frequently purchased products across all orders.
+![Top Products](images/top_products.png)
 
 ### 2. **Top 10 Most Reordered Aisles**
 Highlights aisles with highest reorder rates — staple categories.
+![Reordered Aisles](images/reordered_aisles.png)
 
 ### 3. **Top 10 Users with Highest Average Basket Size**
 Identifies users who place large orders, indicating high-value behavior.
 
 ### 4. **Basket Size Distribution**
 A histogram showing how many items are typically ordered.
+![Basket Size Distribution](images/basket_hist.png)
 
 ### 5. **Order Count by Day of Week and Hour of Day**
 Heatmap showing time-of-day and day-of-week order trends.
+![Orders by Day/Hour](images/dow_hour_heatmap.png)
 
 ---
 
