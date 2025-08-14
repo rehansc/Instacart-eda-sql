@@ -3,6 +3,9 @@
 
 This project explores Instacart's real-world grocery ordering data using **Databricks SQL** and **Python visualizations**. It simulates how a Data Scientist at Instacart might analyze shopping behaviors to generate actionable business insights.
 
+Description: “Instacart Market Basket EDA using Databricks (Spark SQL + Python).”
+Topics: databricks spark sql python eda instacart seaborn pyspark
+
 ---
 
 ## 📦 Dataset
