@@ -3,9 +3,6 @@
 
 This project explores Instacart's real-world grocery ordering data using **Databricks SQL** and **Python visualizations**. It simulates how a Data Scientist at Instacart might analyze shopping behaviors to generate actionable business insights.
 
-Description: “Instacart Market Basket EDA using Databricks (Spark SQL + Python).”
-Topics: databricks spark sql python eda instacart seaborn pyspark
-
 ---
 
 ## 📦 Dataset
@@ -50,7 +47,7 @@ Highlights aisles with highest reorder rates — staple categories.
 
 ### 3. **Top 10 Users with Highest Average Basket Size**
 Identifies users who place large orders, indicating high-value behavior.
-![Reordered Aisles](images/top_users.png)
+![Top Users](images/top_users.png)
 
 ### 4. **Basket Size Distribution**
 A histogram showing how many items are typically ordered.
@@ -75,15 +72,16 @@ Heatmap showing time-of-day and day-of-week order trends.
 
 ```
 instacart-eda-sql/
-├── notebooks/
-│   ├── instacart_week1_notebook.py
-│   └── instacart_week1_output.html
-├── images/                        # optional
-│   └── *.png                      # charts (optional)
-├── README.md
-└── .gitignore
-```
+├── instacart_eda_sql.ipynb
+├── images/
+│   ├── top_products.png
+│   ├── reordered_aisles.png
+│   ├── top_users.png
+│   ├── basket_hist.png
+│   └── dow_hour_heatmap.png
+└── README.md
 
+```
 ---
 
 ## ✅ Next Steps
@@ -91,6 +89,22 @@ instacart-eda-sql/
 - Add predictive modeling (e.g., reorder prediction)
 - Build dashboards (Power BI, Tableau, or Streamlit)
 - Expand to personalized recommendations
+
+---
+
+## ▶️ Run It Yourself
+1. Sign up for [Databricks Community Edition](https://community.cloud.databricks.com/).
+2. Upload the Instacart dataset CSVs to `dbfs:/FileStore/tables/instacart/`.
+3. Import `instacart_eda_sql.ipynb` into Databricks.
+4. Run the notebook cells in order.
+
+---
+
+**Skills Demonstrated**:
+- Data querying with Spark SQL
+- Data cleaning & transformation (PySpark, Pandas)
+- Visualization (Matplotlib, Seaborn)
+- Business insight generation
 
 ---
 
